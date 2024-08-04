@@ -237,3 +237,101 @@ body{
 .in-details{
     color: rgb(111, 111, 111);
 }
+
+.intro-skill-set{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro-skill-set > p{
+    font-size: 20px;
+    color: rgb(123, 124, 124);
+}
+
+.intro-skill-set > h2{
+    font-size: 40px;
+}
+
+.stack{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 600px;
+    width: 80%;
+}
+
+.skill-stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.stack > h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(111, 111, 111);
+    font-weight: 700;
+}
+
+.first-row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.second-row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.third-row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.skill{
+    font-size: 20px;
+    width: 200px;
+    font-weight: 500;
+    
+}
+
+.check{
+    position: relative;
+    right: 20px;
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    top: 20px;
+}
+
+.level{
+    padding-top: 100px;
+    margin-left: 39px;
+    margin-right: 0;
+    color: rgb(107, 105, 105);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.project-heading{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.project-heading> p{
+    font-size: 20px;
+    color: rgb(123, 124, 124);
+}
+
+.project-heading > h2{
+    font-size: 40px;
+}
