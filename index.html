@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kavidu Krishan</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
    <header class="header">
     <a href="#" class="logo">Krishan</a>
 
     <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
         <a href="#">Resume</a>
-        <button class="contact-btn">Contact</button>
+        <a href="#contact">Contact</a>
     </nav>
    </header>
-   <div class="intro">
+   <div class="intro" id="home">
     <img src="./imgs/person.png" alt="Krishan Profile" class="profile">
     <div class="info">
     <p class="greating">Hello I'm</p>
@@ -26,7 +27,7 @@
     <p class="quali">Undergraduate<br></p>
     <div class="intro-btn">
         <button class="button download-cv">Download CV</button>
-    <button class="button contact-info">Contact Info</button>
+        <a href="#contact" class="contact-info-a"><button class="button contact-info">Contact Info</button></a>
     </div>
     <div class="svg social">
        <a href="https://www.linkedin.com/in/kavidu-krishan-696161262" target="_blank"><img src="./imgs/linkedin-fill-svgrepo-com.svg" alt="" height="30" class="icons linkedin"></a> 
@@ -36,7 +37,7 @@
    </div>
 
 <!-- About me -->
-<section class="about-me">
+<section class="about-me" id="about">
     <div class="intro-aboutme">
         <p>Learn More</p>
         <h2>About me</h2>
@@ -47,18 +48,19 @@
             <div class="info-about">
                 <div class="experience">
                     <img src="./imgs/award-svgrepo-com.svg" alt="Experience" height="30">
-                    <h3>Experience</h3>
+                    <h3 class="up-h3">Experience</h3>
                     <p class="in-details">Frontend Development</p>
                     <p class="in-details">Backend Development</p>
                 </div>
                 <div class="education">
                     <img src="./imgs/education-cap-svgrepo-com.svg" alt="Experience" height="30">
-                    <h3>Education</h3>
+                    <h3 class="up-h3">Education</h3>
                     <p class="in-details">BEng(Hons) in Software Engineering</p>
                     <p class="in-details">HND in Computing Spl. Software Engineering</p>
                 </div>
             </div>
-            <p class="mybio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo deleniti dignissimos. Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!</p>
+            <p class="mybio">Passionate about both learning and leading, I thrive as a team player and occasionally step up as a leader, navigating through challenges with a focus on innovative solutions and team success.
+                Eager to connect with like-minded professionals and organizations to explore opportunities in technology and innovation, where we can drive progress and create impactful solutions together.</p>
         </div>
             
         </div>
@@ -66,14 +68,14 @@
 
 
 <!-- Skill Set / Experience -->
-<div class="Skills-set-section">
+<div class="Skills-set-section" id="skills">
     <div class="intro-skill-set">
         <p>Explore</p>
         <h2>My Skills</h2>
     </div>
     <div class="skill-stack">
         <div class="stack front-end">
-            <h2>Front-End Development</h2>
+            <h2>Front-End Technologies</h2>
             <div class="row first-row">
                 <div class="skill">
                     <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">HTML<br>
@@ -86,27 +88,27 @@
             </div>
             <div class="row second-row">
                 <div class="skill">
-                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">SASS<br>
+                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">JavaScript<br>
                     <span class="level">Intermediate</span></p>
                 </div>
                 <div class="skill">
-                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">JavaScript<br>
+                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">React<br>
                     <span class="level">Basic</span></p>
                 </div>
             </div>  
             <div class="row third-row">
                 <div class="skill">
-                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">TypeScript<br>
+                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">Angular<br>
                     <span class="level">Basic</span></p>
                 </div>
                 <div class="skill">
-                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">Material UI<br>
+                    <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">Bootstrap<br>
                     <span class="level">Intermediate</span></p>
                 </div>
             </div>
             </div>
             <div class="stack front-end">
-                <h2>Front-End Development</h2>
+                <h2>Back-End Technologies</h2>
                 <div class="row first-row">
                     <div class="skill">
                         <p><img src="./imgs/check.svg" alt="Check" width="20" class="check">HTML<br>
@@ -145,13 +147,53 @@
 </section>
 
 <!-- Projects -->
- <section class="Project-section">
+ <section class="Project-section" id="project">
 <div class="project-heading">
     <p>Explore</p>
     <h2>The Projects</h2>
 </div>
+<div class="project-card">
+    <div class="box">
+        <div class="proj-detail">
+            <img src="./imgs/person.png" alt="" class="project-image">
+        </div>
+        <h2>Project ABC</h2>
+        <a href="#"><img src="./imgs/github-142-svgrepo-com.svg" alt="" class="github-link" height="30"></a>
+    </div>
+    <div class="box">
+        <div class="proj-detail">
+            <img src="./imgs/person.png" alt="" class="project-image">
+            
+        </div>
+        <h2>Project ABC</h2>
+        <a href="#"><img src="./imgs/github-142-svgrepo-com.svg" alt="" class="github-link" height="30"></a>
+    </div>
+    <div class="box">
+        <div class="proj-detail">
+            <img src="./imgs/person.png" alt="" class="project-image">
+        </div>
+        <h2>Project ABC</h2>
+        <a href="#"><img src="./imgs/github-142-svgrepo-com.svg" alt="" class="github-link" height="30"></a>
+    </div>
+</div>
  </section>
+
+ <!-- Contact Me -->
+  <section class="contact-me-section" id="contact">
+    <div class="intro-contact">
+        <p>Get to Know</p>
+        <h2>Contact Me</h2>
+    </div>
+    <div class="contact-detail">
+        <img src="./imgs/email.svg" alt="" class="email-logo"><a href="mailto:kavindukrishan986@gmail.com" class="email">kavindukrishan986@gmail.com</a>
+        <img src="./imgs/linkedin-fill-svgrepo-com.svg" alt="" class="email-logo"><a href="https://www.linkedin.com/in/kavidu-krishan-696161262" target="_blank" class="linkedin">Kavidu Krishan</a>
+    </div>
+  </section>
    
 
+  <footer class="footer">
+    <p>Copyright © 2024 Kavidu Krishan. All Rights Reserved.</p>
+  </footer>
+  
 </body>
 </html>
