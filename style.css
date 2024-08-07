@@ -44,6 +44,7 @@ body{
     margin-left: 40px;
 }
 
+<<<<<<< HEAD
 .navbar {
     display: flex;
 }
@@ -73,6 +74,8 @@ body{
     right: 0;
 }
 
+=======
+>>>>>>> aa940fc5df9d0ad80459f828e6f35407a0a02e28
 .contact-btn{
     text-decoration: none;
     background-color: rgb(255, 255, 255);
@@ -110,7 +113,10 @@ body{
 .profile{
     border-radius: 50%;
     height: 400px;
+<<<<<<< HEAD
     width: 400px;
+=======
+>>>>>>> aa940fc5df9d0ad80459f828e6f35407a0a02e28
     margin-top: 100px;
     margin-right: 50px;
     margin-right: 20px;
@@ -262,13 +268,17 @@ body{
 .mybio{
     margin-top: 20px;
     margin-left: 5px;
+<<<<<<< HEAD
     font-family: 'Prompt', sans-serif;
     font-weight: 300;
     font-style: normal;
+=======
+>>>>>>> aa940fc5df9d0ad80459f828e6f35407a0a02e28
 }
 
 .in-details{
     color: rgb(111, 111, 111);
+<<<<<<< HEAD
     font-family: 'Prompt', sans-serif;
 }
 
@@ -473,3 +483,8 @@ html {
     width: 300px;
 }
 
+=======
+}
+
+/* Media Queries */
+>>>>>>> aa940fc5df9d0ad80459f828e6f35407a0a02e28
