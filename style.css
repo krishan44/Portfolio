@@ -108,9 +108,9 @@ body{
 
 
 .profile{
-    border-radius: 50%;
+    border-radius:700px;
     height: 400px;
-    width: 400px;
+    width: auto;
     margin-top: 100px;
     margin-right: 50px;
     margin-right: 20px;
@@ -509,7 +509,6 @@ html {
     .navbar{
         display: flex;
         justify-content: center;
-        align-items: center;
         width: 100%;
         position: relative;
         left: 40px;
@@ -521,7 +520,6 @@ html {
         /* margin: 0 15px; */
         position: relative;
         padding-bottom: 5px;
-        
     }
     
     .intro{
